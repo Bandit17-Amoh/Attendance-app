@@ -1,0 +1,16 @@
+{
+  "name": "attendance-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd Client && npm install && npm run build",
+    "start": "node Server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
