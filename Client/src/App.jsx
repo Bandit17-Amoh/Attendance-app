@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const API = "/api";
-const NGROK_URL = "https://footer-mortified-sizable.ngrok-free.dev";
+const NGROK_URL = "https://attendance-app-production-8358.up.railway.app";
 
 function getQRImageUrl(text) {
   return `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(text)}&bgcolor=ffffff&color=1a1a2e&margin=10`;
