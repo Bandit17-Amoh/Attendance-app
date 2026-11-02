@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const API = "/api";
-const NGROK_URL = "https://attendqr.up.railway.app";
+const NGROK_URL = "http://192.168.56.1:3000";
 
 function getQRImageUrl(text) {
   return `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(text)}&bgcolor=ffffff&color=1a1a2e&margin=10`;
